@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.cdnfonts.com/css/schnoerkel-caps"
+      rel="stylesheet"
+    />
+
+    <title>CHRISTOPHER GONZALEZ </title>
+  </head>
+  <body>
+    <style>
+        :root{
+            --pomp-and-power: rgb(0, 99, 228);
+            --feldgrau: rgb(11, 11, 11);
+            --ash-gray: rgb(0, 197, 223);
+            --chili-red: rgb(198, 198, 247);
+            --red: rgb(179, 237, 240);
+        }
+        body{
+            background-color: var(--baby-power);
+        }
+        .tuzos-section{
+          position: relative;
+          height: 500px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          background: url("tuzos.jpg") no-repeat center center/cover;         
+        }
+        .tuzos-section::after{
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: black;
+          z-index: 1;
+
+        }
+        .tuzos-text{
+          position: relative;
+          z-index: 2;
+        }
+        .tuzos-text h1,
+        .tuzos-text h3,
+        .tuzos-text p{
+          font-family: 'Times New Roman', Times, serif ;
+          font-size: 60px;
+          font-weight: bold;
+           background: url("tuzos.jpg") no-repeat center center/cover;
+           -webkit-background-clip:text;
+           -webkit-text-fill-color:transparent;
+           background-clip: text;
+
+        }
+
+    </style>
+
+    <nav class="navbar navbar-light" style="background-color: var(--pomp-and-power);">
+     
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="background: var(--feldgrau);">Inicio</a>
+
+             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+           <ul class="nav navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="unidad1.html"
+                id="navbarDeopdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" style="color: rgb(12, 12, 12);">UNIDAD 1 Ciberseguridad</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDopDownMenuLink">
+                    <a class="dropdown-item" href="./chris01.html">Conceptos</a><br>
+                    <a class="dropdown-item" href="/chris02.html">Ataques</a><br>
+                    <a class="dropdown-item" href="/chris03.html">Proteccion</a><br>
+
+                </div>
+            </li>
+           </ul>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+           <ul class="nav navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="unidad2.html"
+                id="navbarDeopdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" style="color: rgb(10, 10, 10);">UNIDAD 2 </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDopDownMenuLink">
+                    <a class="dropdown-item" href="./chris04.html">Conceptos</a><br>
+                    <a class="dropdown-item" href="/chris05.html">Ataques</a><br>
+                    <a class="dropdown-item" href="/chris06.html">Proteccion</a><br>
+
+                </div>
+            </li>
+           </ul>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+           <ul class="nav navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="unidad3.html"
+                id="navbarDeopdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" style="color: rgb(12, 12, 12);">UNIDAD 3 </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDopDownMenuLink">
+                    <a class="dropdown-item" href="./chris07.html">Conceptos</a><br>
+                    <a class="dropdown-item" href="/chris08.html">Ataques</a><br>
+                    <a class="dropdown-item" href="/chris09.html">Proteccion</a><br>
+
+                </div>
+            </li>
+           </ul>
+        </div>
+
+      </nav>
+
+    <div class="jumbotron"style="background-color: var(--ash-gray);">
+      <div class="tuzos-text">
+        <h1>CHRISTOPHER GONZALEZ</h1>
+        <h3>PROGRAMACION 5TOA</h3>
+        <p>CONSTRUYE PAGINAS WEB</p>
+      </div>
+
+    </div>
+   
+  </body>
+
+</html>
