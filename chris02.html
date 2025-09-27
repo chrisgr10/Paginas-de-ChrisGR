@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap y jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"/>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <!-- Fuentes elegantes -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <title>CHRISTOPHER GONZALEZ</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #008000;
+      font-family: 'Arial' ;
+      padding: 20px;
+    }
+    h1 {
+      font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+      color: #008000;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .table-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 8px;
+      border: 2px solid #008000;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #008000;
+    }
+    th {
+      background-color: #008000;
+      color: #ffffff;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    td {
+      background-color: #ffffff;
+      color: #008000;
+      font-weight: 300;
+      font-size: 14px;
+    }
+    img {
+      max-width: 100px;
+      height: auto;
+      border: 1px solid #008000;
+      border-radius: 5px;
+    }
+    tr:hover td {
+      background-color: #e6ffe6;
+      transition: background-color 0.3s ease;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      th, td {
+        padding: 8px;
+        font-size: 12px;
+      }
+      img {
+        max-width: 80px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ataques de Ciberseguridad</h1>
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Ataque</th>
+            <th>Descripción</th>
+            <th>Impacto</th>
+            <th>Imagen</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-ataques">
+          <tr>
+            <td>Phishing</td>
+            <td>Envío de correos electrónicos fraudulentos que parecen provenir de fuentes legítimas para robar datos personales.</td>
+            <td>Robo de credenciales, pérdida financiera, compromiso de datos.</td>
+            <td><img src="https://images.unsplash.com/photo-1563206767-5b18f218e8de" alt="Phishing attack"></td>
+          </tr>
+          <tr>
+            <td>Malware</td>
+            <td>Software malicioso diseñado para infiltrarse y dañar sistemas informáticos.</td>
+            <td>Pérdida de datos, interrupción de servicios, espionaje.</td>
+            <td><img src="https://images.pexels.com/photos/5380792/pexels-photo-5380792.jpeg" alt="Malware infection"></td>
+          </tr>
+          <tr>
+            <td>Ataque DDoS</td>
+            <td>Sobrecarga de servidores con tráfico masivo para interrumpir servicios.</td>
+            <td>Caída de sitios web, pérdida de disponibilidad, costos operativos.</td>
+            <td><img src="https://es.gridinsoft.com/img/article/ddos.jpg" alt="DDoS attack"></td>
+          </tr>
+          <tr>
+            <td>Ransomware</td>
+            <td>Malware que cifra datos del usuario y exige un rescate para desbloquearlos.</td>
+            <td>Pérdida de acceso a datos, costos de rescate, interrupción operativa.</td>
+            <td><img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd" alt="Ransomware attack"></td>
+          </tr>
+          <tr>
+            <td>Man-in-the-Middle (MitM)</td>
+            <td>Intercepción de comunicaciones entre dos partes para espiar o manipular datos.</td>
+            <td>Robo de información sensible, manipulación de datos, pérdida de confianza.</td>
+            <td><img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f" alt="MitM attack"></td>
+          </tr>
+          <tr>
+            <td>SQL Injection</td>
+            <td>Inserción de código malicioso en consultas SQL para manipular bases de datos.</td>
+            <td>Acceso no autorizado a datos, corrupción de bases de datos, filtración de información.</td>
+            <td><img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg" alt="SQL injection attack"></td>
+          </tr>
+          <tr>
+            <td>Credential Stuffing</td>
+            <td>Uso de credenciales robadas para acceder a múltiples cuentas mediante ataques automatizados.</td>
+            <td>Acceso no autorizado, robo de identidad, compromiso de cuentas.</td>
+            <td><img src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/666841a90d1e4517b63ce553_8%20-%2010.06-min.jpg" alt="Credential stuffing attack"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+   <a href="chris.html" class="btn btn-back">REGRESAR</a>
+</table>
+</body>
+</html>
